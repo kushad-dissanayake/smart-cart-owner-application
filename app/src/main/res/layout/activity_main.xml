@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="214dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_type"
+        android:layout_marginTop="20dp"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="Selected Image" />
+
+    <EditText
+        android:id="@+id/txt_dpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Product Department" />
+
+    <EditText
+        android:id="@+id/text_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/txt_dpt"
+        android:layout_margin="20dp"
+        android:hint="Enter Product Type" />
+
+    <Button
+        android:id="@+id/btn_browse"
+        android:layout_width="214dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="97dp"
+        android:layout_below="@id/text_type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Browse" />
+
+</RelativeLayout>

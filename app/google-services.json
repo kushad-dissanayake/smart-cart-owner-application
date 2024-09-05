@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "452888793577",
+    "firebase_url": "https://smart-cart-database-2eea0-default-rtdb.firebaseio.com",
+    "project_id": "smart-cart-database-2eea0",
+    "storage_bucket": "smart-cart-database-2eea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452888793577:android:e518dd165c419c8effbb78",
+        "android_client_info": {
+          "package_name": "com.example.smartcartdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPNp6v88M1Jlk1ccYhU9X5MZmBQZrAFY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452888793577:android:89fd1dcc7c8171d6ffbb78",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPNp6v88M1Jlk1ccYhU9X5MZmBQZrAFY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
